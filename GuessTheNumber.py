@@ -5,15 +5,15 @@ import time
 window = Tk()
 window.geometry("830x740")
 window.title("Guess The Number")
-logo1 = PhotoImage(file="downward.png")
+logo1 = PhotoImage(file="Downward.png")
 logo1=logo1.subsample(2)
 window.grid_columnconfigure(0, weight=1)
 window.grid_rowconfigure(0, weight=1)
 
 
-logo2 = PhotoImage(file="upward.png")
+logo2 = PhotoImage(file="Upward.png")
 logo2=logo2.subsample(4)
-logo3 = PhotoImage(file="tickarrow.png")
+logo3 = PhotoImage(file="TickArrow.png")
 logo3=logo3.subsample(2)
 x=0
 y=0
